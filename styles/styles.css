@@ -1,0 +1,63 @@
+/* Light Theme */
+body.light-theme {
+  background-color: #fff;
+  color: #222;
+}
+
+body.light-theme .section {
+  color: #222;
+}
+
+body.light-theme .card {
+  background: #f8f8f8;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme footer {
+  background: #f1f1f1;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .cta,
+body.light-theme .contact-form button,
+body.light-theme .theme-toggle {
+  color: #fff;
+  background: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+body.light-theme .cta:hover,
+body.light-theme .contact-form button:hover,
+body.light-theme .theme-toggle:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+body.light-theme .contact-form input,
+body.light-theme .contact-form textarea {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+
+/* Light theme hero */
+body.light-theme .hero {
+  background: radial-gradient(circle at 30% 50%, #ffffff 0%, #f0f0f0 100%);
+  color: #111;
+}
+
+body.light-theme .hero::before {
+  background: radial-gradient(circle, rgba(214, 0, 0, 0.15) 0%, transparent 70%);
+}
+
+body.light-theme .cta {
+  background: var(--accent);
+  color: #fff;
+}
+
+body.light-theme .cta:hover {
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+}
